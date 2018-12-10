@@ -68,7 +68,7 @@ function product_set_import($projectId, $location, $gcsUri)
                 printf('Status code not OK: %s' . PHP_EOL, $status->getMessage());
             }
         }
-    } else{
+    } else {
         print($operation->getError()->getMessage());
     }
     
